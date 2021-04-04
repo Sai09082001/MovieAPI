@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/actionbar_home"/>
+    <LinearLayout
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_demo"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:text="Biệt Đội Siêu Anh Hùng - The Avengers(2020)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TableRow
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:backgroundTint="@color/gray"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_rotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:text="User Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="1dp"
+                android:background="@color/white"/>
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_play"/>
+            <TextView
+                android:id="@+id/tv_play"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:text="Play Trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <LinearLayout
+            android:paddingBottom="10dp"
+            android:background="@color/grayDark"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_pg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:maxLines="2"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="23/12/2020(VN) -1h53m \nAction Film ,Science FIction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                   android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:text="Battle"
+                        android:textSize="24dp"
+                        android:textColor="@color/thin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Overview"
+                        android:textSize="24dp"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/tv_overview"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Biệt đội siêu anh hùng - The Avenger là bộ phim điện ảnh thuộc thể loại siêu anh hùng viễn tưởng được xây dựng dựa trên hình tượng của các thành viên trong biệt đội siêu anh hùng của hãng Marvel Comics, được sản xuất bởi Marvel Studio và Walt Disney Studios chịu trách nhiệm phân phối. Đây cũng là phần phim điện ảnh thứ 6 trong vũ trụ Marvel (MCU).
+
+Phim được viết kịch bản bởi đạo diễn Joss Whedon, dàn diễn viên chính là tập hợp các anh hùng ở nhiều phần phim khác nhau gồm Robert Downey, Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Tom Hiddleston, và Samuel L. Jackson và Jeremy Renner. Phần phim hội tụ nhiều siêu anh hùng nhờ Nick Fury - người điều hành tổ chức gìn giữ hòa bình S.H.I.E.L.D đã chiêu mộ Iron Man, Thor, Hulk và Captain America để cùng hợp sức đánh bại kẻ thù, cứu nguy cho thế giới.
+
+Phim được lên kế hoạch thực hiện sau khi Marvel Studios nhận được khoản vay từ Merrill Lynch vào tháng 4 2005. Sau thành công vang dội của phần phim Iron Man vào 2008, Marvel đã lên lịch khởi chiếu cho bộ phim Avenger vào năm 2011. Tuy nhiên có một số nhân vật ký hợp đồng khá trễ như Johansson nên phim bị dời lại 1 năm. Đạo diễn Whedon bắt đầu nhận nhiệm vụ vào tháng 10 và viết lại kịch bản từ bản nguyên mẫu của Zak Penn.
+
+Phim khởi quay vào tháng 4 năm 2010 và được chuyển qua định dạng 3D vào cuối quy trình sản xuất. Biệt đội siêu anh hùng ra mắt lần đầu vào 11/4/2012, ngay khi ra mắt phim đã nhận được nhiều lời phê bình tích cực từ hầu hết các nhà phê bình phim, đồng thời lập kỷ lục phòng vé tại nhiều quốc gia. Phim cũng đạt nhiều cột mốc ấn tượng như bộ phim có doanh thu mở màn ấn tượng nhất tại thị trường Bắc Mỹ, bộ phim cán mốc 1 tỷ đô nhanh nhất mọi thời đại hay bộ phim đứng thứ 3 trong top phim ăn khách nhất của nền điện ảnh Hoa Kỳ. "
+                        android:textSize="16dp"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/navigation_tool_bar"/>
+</LinearLayout>

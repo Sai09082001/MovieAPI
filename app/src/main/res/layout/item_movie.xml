@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/ln_item_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:background="@drawable/bg_item_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/iv_photo"
+                    android:src="@drawable/bg_demo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="120dp">
+
+                <TextView
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:id="@+id/tv_title"
+                    android:gravity="start"
+                    android:textSize="16dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Biệt Đội Siêu Anh Hùng - The Avengers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:gravity="start"
+                    android:textSize="14dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="23/12/2020"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:lineSpacingExtra="@dimen/d_2"
+                    android:id="@+id/tv_overview"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:gravity="start"
+                    android:textSize="14dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Biệt đội siêu anh hùng - The Avenger là bộ phim điện ảnh thuộc thể loại siêu anh hùng viễn tưởng được xây dựng dựa trên hình tượng của các thành viên trong biệt đội siêu anh hùng của hãng Marvel Comics, được sản xuất bởi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </TableRow>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

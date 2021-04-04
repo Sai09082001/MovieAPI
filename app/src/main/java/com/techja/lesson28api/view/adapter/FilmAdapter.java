@@ -46,7 +46,12 @@ public class FilmAdapter extends RecyclerView.Adapter<FilmAdapter.FilmHolder> {
     @Override
     public void onBindViewHolder(@NonNull FilmHolder holder, int position) {
         MovieModel.Result data=listData.get(position);
-        Glide.with(context).load("https://www.themoviedb.org/t/p/w600_and_h900_bestv2/"+data.getPosterPath()).centerCrop().into(holder.ivPhoto);
+        RequestOptions options = new RequestOptions()
+                .centerCrop().placeholder(R.drawable.bg_demo)
+                .error(R.drawable.bg_demo);
+
+        Glide.with(context).load("https://www.themoviedb.org/t/p/w600_and_h900_bestv2/"+data.getPosterPath()).apply(options).into(holder.ivPhoto);
+       // Glide.with(context).load("https://www.themoviedb.org/t/p/w600_and_h900_bestv2/"+data.getPosterPath()).centerCrop().into(holder.ivPhoto);
         holder.tvOverview.setText(data.getOverview());
         holder.tvDate.setText(data.getReleaseDate());
         holder.tvTitle.setText(data.getTitle());

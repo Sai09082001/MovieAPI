@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.techja.lesson28api.R;
+import com.com.techja.lesson28api.R;
 import com.techja.lesson28api.api.model.MovieModel;
 
 import java.util.List;

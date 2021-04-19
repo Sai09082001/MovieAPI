@@ -20,7 +20,7 @@ public abstract class BaseViewModel extends ViewModel {
 
 
     private static final String TAG = BaseViewModel.class.getName();
-    private static final String BASE_URL = "https://api.themoviedb.org/3/";
+    public static  String BASE_URL = "https://api.themoviedb.org/3/";
     protected OnActionCallBack callBack;
 
     public void setCallBack(OnActionCallBack callBack) {

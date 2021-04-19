@@ -2,9 +2,9 @@ package com.techja.lesson28api.view.act;
 
 import android.widget.Toast;
 
+import com.com.techja.lesson28api.R;
 import com.techja.lesson28api.CommonUtils;
 import com.techja.lesson28api.OnActionCallBack;
-import com.techja.lesson28api.R;
 import com.techja.lesson28api.api.model.MovieModel;
 import com.techja.lesson28api.view.fragment.M001LoginFrg;
 import com.techja.lesson28api.view.fragment.M002ListFilmFrg;

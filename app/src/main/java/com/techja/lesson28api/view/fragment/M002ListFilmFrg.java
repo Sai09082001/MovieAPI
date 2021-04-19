@@ -6,8 +6,8 @@ import android.widget.Toast;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.com.techja.lesson28api.R;
 import com.techja.lesson28api.App;
-import com.techja.lesson28api.R;
 import com.techja.lesson28api.api.model.MovieModel;
 import com.techja.lesson28api.view.adapter.FilmAdapter;
 import com.techja.lesson28api.view.viewmodel.M002ListFilmModel;

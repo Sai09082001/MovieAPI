@@ -4,8 +4,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.com.techja.lesson28api.R;
 import com.techja.lesson28api.App;
-import com.techja.lesson28api.R;
 import com.techja.lesson28api.api.model.TokenResModel;
 import com.techja.lesson28api.view.viewmodel.BaseViewModel;
 import com.techja.lesson28api.view.viewmodel.M001LoginModel;

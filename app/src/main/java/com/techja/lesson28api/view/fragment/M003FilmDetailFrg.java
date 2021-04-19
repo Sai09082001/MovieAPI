@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 
 import com.bumptech.glide.Glide;
-import com.techja.lesson28api.R;
+import com.com.techja.lesson28api.R;
 import com.techja.lesson28api.api.model.MovieModel;
 import com.techja.lesson28api.view.viewmodel.M003FilmDetailModel;
 
